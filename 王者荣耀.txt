@@ -1,0 +1,22 @@
+110 580 241 580 349 580
+120 703 241 703 360 703
+110 920 241 920 349 920
+
+
+adb shell input swipe 241 703 241 580 100 
+adb shell input swipe 241 580 241 580 1000 
+w
+adb shell input swipe 241 703 349 580 100 
+wd
+adb shell input swipe 241 703 360 703 100 
+d
+adb shell input swipe 241 703 349 920 100 
+ds
+adb shell input swipe 241 703 241 920 100 
+s
+adb shell input swipe 241 703 110 920 100 
+as
+adb shell input swipe 241 703 120 703 100 
+a
+adb shell input swipe 241 703 110 580 100 
+aw
